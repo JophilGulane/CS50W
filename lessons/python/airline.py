@@ -12,7 +12,7 @@ class Flight():
     def open_seats(self):
         return self.capacity - len(self.passengers)
 
-flight = Flight(3)
+flight = Flight(2)
 
 people = ["Harry", "Ron", "Hermione", "Ginny"]
 for person in people:
